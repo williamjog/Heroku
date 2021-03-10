@@ -31,6 +31,13 @@ heroku logs --app=app-with-express
 heroku logs --app=app-with-express -t # acompanhar logs
 ```
 
+## Reiniciar Servidor
+
+```
+heroku ps:restart --app [nome-do-app]
+
+```
+
 ## Linkar repositório local
 
 ```
